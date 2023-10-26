@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-image: linear-gradient(to bottom left, #b1cdf2, #f4cde0, #c1c6ec);
 }
 
 .App-logo {

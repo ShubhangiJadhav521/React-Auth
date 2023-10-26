@@ -22,5 +22,15 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "jest":{
+  "moduleNameMapper": {
+    "axios": "axios/dist/node/axios.cjs",
+    "preset": "ts-jest"
+  },
+  "transform": {
+    "^.+\\.(ts|tsx)$": "babel-jest"
+  }
+  }
+ 
 }
